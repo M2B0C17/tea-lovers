@@ -2,3 +2,73 @@
 Código Hexadecimal verde: #8EC641
 Código Hexadecimal gris footer: #3B3B3B
 */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+	font-size: 16px;
+}
+
+/* Sección Bienvenida */
+#bienvenida{
+	background: url('../img/fondo-bienvenida.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.logo{
+	text-align: left;
+	padding:0 30px;
+}
+
+.mensaje{
+	text-align: center;
+}
+
+/* Selecciones fondo de color */
+.color{
+	background-color: #8EC641;
+}
+
+/* Newsletter */
+
+.newsletter{
+	text-align: center;
+	padding: 50px;
+}
+
+.newsletter button{
+	color: white;
+	background-color: #8EC641;
+	padding: 20px;
+	border: 5px solid white;
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-weight: bolder; /*peso tipografico (de bold)*/
+	cursor: pointer;
+}
+
+/* Sección about */
+#about {
+	background: url('../img/fondo-about.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contenido{
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+}
+
+.contenido h1{
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
