@@ -21,12 +21,24 @@
 				<div class="form">
 				<h1>¿Te gusta el té?</h1>
 					<form class="formulario" method="post">
-						<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="datoUsuario">Nombre</input>
-						<input type="text" id="email" name="email" placeholder="Email" class="datoUsuario">Email</input>
-						<input type="text" id="direc" name="dirección" placeholder="Dirección" class="datoUsuario">Dirección</input>
+						<label class="labForm">Nombre</label>
+						<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="datoUsuario">
+						<label class="labForm">Email</label>
+						<input type="text" id="email" name="email" placeholder="Email" class="datoUsuario">
+						<label class="labForm">Dirección</label>
+						<input type="text" id="direc" name="dirección" placeholder="Dirección" class="datoUsuario">
+						<label class="labForm">Té Favorito:</label>
+							<select class="selectUsuario" id="selec">
+								<option value="Selecciona tu té">Selecciona tu té</option>
+								<option value="Negro">Negro</option>
+								<option value="Verde">Verde</option>
+								<option value="Rojo">Rojo</option>
+								<option value="Blanco">Blanco</option>
+								<option value="Oolong">Oolong</option>
+							</select>
 					</div>
 				<div class="newsletter">
-				<button id="suscribirse" onclick="validar();">Suscríbete a nuestro newsletter</button>
+				<button type="submit"	id="suscribirse">Suscríbete a nuestro newsletter</button>
 			</div>
 		</section>
 		</form>

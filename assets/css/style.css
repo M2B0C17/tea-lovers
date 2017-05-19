@@ -57,12 +57,33 @@ Código Hexadecimal gris footer: #3B3B3B
 	padding: 50px;
 	color: white;
 	box-sizing: border-box;
+	position: relative;
 
 }
 
 .form h1{
 	font-size: 40px;
 	color: white;
+	text-align: center;
+	margin: 50px auto;
+}
+
+.form input, .form label{
+	text-align: center;
+	display: block;
+	border: 1px solid transparent;
+	background-position: center;
+	padding: 5px 5px;
+	width: 400px;
+	border-radius: 10px;
+	margin: 3px auto;
+}
+.form input{
+	color: green;
+}
+
+.form label{
+		color: white;
 }
 
 
