@@ -51,6 +51,21 @@ Código Hexadecimal gris footer: #3B3B3B
 	cursor: pointer;
 }
 
+/* Newsletter Evaluado */
+.form{
+	text-align: center;
+	padding: 50px;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+.form h1{
+	font-size: 40px;
+	color: white;
+}
+
+
 /* Sección about */
 #about {
 	background: url('../img/fondo-about.jpg');
